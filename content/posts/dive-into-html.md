@@ -13,7 +13,11 @@ description: "Comprendre les bases du HTML et commencer à batir un site"
 
 Dans un endroit futé, créez un dossier, par exemple `MonSuperSite`.
 
-Puis dans le dossier, un clic-droit et ouvrir avec VS code.
+> **Important**: Pour les noms de dossiers et de fichiers, ne pas utiliser d'espaces, de caractères spéciaux, des accents, et en HTML les noms de fichiers et de sous-dossiers sont en minuscule. Voir [Naming HTML Conventions](http://thenewcode.com/30/HTML-Naming-Conventions-and-File-Management)
+
+
+
+Dans le dossier, un clic-droit et ouvrir avec VS code.
 ![VS Code Open](./images/vscode-open.gif)
 Ensuite, créez un nouveau fichier: `index.html`.
 ![VS Code Index](./images/vscode-index.gif)
@@ -315,4 +319,26 @@ Dans le fichier complet, ça donne:
 Cette méthode est valable si vous avez des images stockées dans le cloud, comme avec Google Drive, Dropbox, Onedrive ou autre.
 
 Au passage: vous pouvez essayer le site [cloudinary](https://cloudinary.com/) qui permet le partage avancé de photos.
+
+### Image à partir d'un fichier
+
+Nous devons en premier créer un sous-dossier, par exemple `img`, dans lequel nous allons stocker nos images.
+
+![VS Code Open](./images/vscode-folder-img.gif)
+
+
+Pour simplifier, nous allons mettre une image dans ce dossier que nous allons renommer `image1.jpg`
+
+Pour l'insérer dans notre site:
+
+```html
+<img src="./img/image1.jpg" alt="Une image">
+```
+
+> `./img/image1.jpg` est un chemin **relatif**. Tous les chemins doivent être relatifs, pas *absolus*.
+Il faut de plus respecter la *casse*, c'est-à-dire les majuscules et les minuscules.
+
+
+Vous pouvez mettre cette image à l'endroit que vous souhaitez. Faites plusieurs essais 😸
+
 
