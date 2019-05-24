@@ -40,4 +40,9 @@ Vous avez aussi la fermeture intelligente des balises:
 
 ![Close Tags](https://code.visualstudio.com/assets/docs/languages/html/auto-close1.gif)
 
+Pratique: l'auto-complétion des chemins pour insérer une image par exemple:
+
+![Auto Img](./images/vscode-auto-img.gif)
+
+
 
