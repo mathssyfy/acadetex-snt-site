@@ -10,7 +10,13 @@
     </div>
     
     <div class="post content-box">
+       <div class="post__header">
+        <g-image alt="Cover image" v-if="$page.post.cover" :src="$page.post.cover" />
+      </div>
 
+          <!-- <g-image alt="Author image" :src="$page.post.cover"/> -->
+        
+      
       <div class="post__content" v-html="$page.post.content" />
 
       <div class="post__footer">
@@ -30,12 +36,14 @@
 import PostMeta from '~/components/PostMeta'
 import PostTags from '~/components/PostTags'
 import Author from '~/components/Author.vue'
+import Parallax from "vue-parallaxy"
 
 export default {
   components: {
     Author,
     PostMeta,
-    PostTags
+    PostTags,
+    Parallax
   },
   metaInfo () {
     return {
@@ -47,7 +55,8 @@ export default {
         }
       ]
     }
-  }
+  },
+  
 }
 </script>
 
@@ -58,6 +67,7 @@ query Post ($path: String!) {
     path
     date (format: "D. MMMM YYYY")
     timeToRead
+    cover (width: 860, blur: 10)
     tags {
       id
       title
@@ -65,6 +75,7 @@ query Post ($path: String!) {
     }
     description
     content
+    
   }
 }
 </page-query>

@@ -1,9 +1,9 @@
 <template>
   <div class="post-card content-box" :class="{'post-card--has-poster' : post.poster}">
+    <g-image   height="50" alt="Cover image"  class="post-card__image" src="https://images.unsplash.com/photo-1506269996138-4c6d92fbd8a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1850&q=80" />
     <div class="post-card__content">
       <h2 class="post-card__title" v-html="post.title" />
       <p class="post-card__description" v-html="post.description" />
-      
       <PostMeta class="post-card__meta" :post="post" />
       <PostTags class="post-card__tags" :post="post" />
 

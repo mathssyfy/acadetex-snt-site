@@ -4,7 +4,7 @@ date: 2019-05-24
 tags: ['Développement', 'Tutoriel']
 canonical_url: false
 description: "Installer et paramétrer Visual Studio Code"
-
+cover: ./alexandr-podvalny-220262-unsplash.jpg
 ---
 
 ## Télécharger VSCode
@@ -40,9 +40,7 @@ Vous avez aussi la fermeture intelligente des balises:
 
 ![Close Tags](https://code.visualstudio.com/assets/docs/languages/html/auto-close1.gif)
 
-Pratique: l'auto-complétion des chemins pour insérer une image par exemple:
 
-![Auto Img](./images/vscode-auto-img.gif)
 
 
 
