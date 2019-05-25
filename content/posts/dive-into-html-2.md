@@ -49,8 +49,8 @@ Dans le fichier complet, ça donne:
      <main>
          <p>Mon voyage dans la Beauce</p>
          <p>Le meilleur camping du Havre</p>
-         <p>Une photo d'un chat rigolo <img                                            
-                                          src="https://res.cloudinary.com/dpw19qolx/image/upload/v1549194479/samples/animals/kitten-playing.gif" 
+         <p>Une photo d'un chat rigolo <img
+                                          src="https://res.cloudinary.com/dpw19qolx/image/upload/v1549194479/samples/animals/kitten-playing.gif"
                                           alt="chat rigolo">
        </p>
          <p>La vie des cailloux en milieu aquatique</p>
@@ -73,7 +73,6 @@ Nous devons en premier créer un sous-dossier, par exemple `img`, dans lequel no
 
 ![VS Code Open](./images/vscode-folder-img.gif)
 
-
 Pour simplifier, nous allons mettre une image dans ce dossier que nous allons renommer `image1.jpg`
 
 Pour l'insérer dans notre site:
@@ -86,10 +85,8 @@ Pour l'insérer dans notre site:
 
 ![Auto Img](./images/vscode-auto-img.gif)
 
-
 > `./img/image1.jpg` est un chemin **relatif**. Tous les chemins doivent être relatifs, pas *absolus*.
 Il faut de plus respecter la *casse*, c'est-à-dire les majuscules et les minuscules.
-
 
 Vous pouvez mettre cette image à l'endroit que vous souhaitez. Faites plusieurs essais 😸
 
@@ -100,7 +97,6 @@ Un site est souvent composé de plusieurs pages. Nous allons ajouter une page "C
 Pour ce faire, nous allons créer un sous-dossier `contact` dans lequel nous allons créer un fichier `index.html`
 
 ![About Html](./images/vscode-about-html.gif)
-
 
 > Le fichier peut être appelé différemment (pas encore index.html), mais la plupart des serveurs Web serviront généralement les fichiers index.html si le navigateur visite simplement un dossier (par exemple, mon-url.com/contacts - la plupart des serveurs essaieraient de retourner un fichier index.html).
 
@@ -138,8 +134,8 @@ Notre fichier principal devrait alors ressembler à:
      <main>
          <p>Mon voyage dans la Beauce</p>
          <p>Le meilleur camping du Havre</p>
-         <p>Une photo d'un chat rigolo <img                                            
-                                          src="https://res.cloudinary.com/dpw19qolx/image/upload/v1549194479/samples/animals/kitten-playing.gif" 
+         <p>Une photo d'un chat rigolo <img
+                                          src="https://res.cloudinary.com/dpw19qolx/image/upload/v1549194479/samples/animals/kitten-playing.gif"
                                           alt="chat rigolo">
        </p>
          <p>La vie des cailloux en milieu aquatique</p> <img src="./img/image1.jpg" alt="Une image">
