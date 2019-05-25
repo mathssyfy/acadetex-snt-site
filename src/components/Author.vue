@@ -1,7 +1,7 @@
 <template>
   <div class="author">
     <h1 v-if="showTitle" class="author__site-title">{{ $static.metaData.siteName }}</h1>
-    <g-image alt="Author image" src="~/assets/images/html.jpg" width="300" height="180"/>
+    <g-image alt="Author image" src="~/assets/images/dessin.svg" width="300" height="180"/>
 
     <p class="author__intro">SNT: Sciences Numériques et Technologiques</p>
 

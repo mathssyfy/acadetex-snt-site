@@ -193,4 +193,6 @@ Nous avons utilisé:
 
 Dans `../index.html` les deux points du début signifient que l'on remonte dans l'arborescence du site.
 
-En fait nous n'avaons pas vraiment besoin de préciser `index.html`. Un simple `../` suffirait.
+En fait nous n'avons pas vraiment besoin de préciser `index.html`. Un simple `../` suffirait.
+
+> Pour en savoir plus: [HTML File Paths](https://www.w3schools.com/html/html_filepaths.asp)
