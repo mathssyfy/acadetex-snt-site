@@ -4,9 +4,9 @@ date: 2019-05-24
 tags: ['HTML', 'Tutoriel']
 canonical_url: false
 description: "Comprendre les bases du HTML et commencer à batir un site"
-
+cover: ./covers/birds.jpg
 ---
-> *Prérequis* : Visual Studio Code est installé sur votre poste
+> *Prérequis* : [Visual Studio Code](/visual-studio-code) est installé sur votre poste
 
 
 ## Environnement de travail
@@ -264,4 +264,4 @@ Ajouter le `<footer>` terminera le contenu réel de notre site Web. Le pied de p
 Avec cela, le contenu de base est terminé et, même si le site Web contient encore des espaces réservés et est loin d’être terminé, les éléments de base sont définis.
 
 
-
+[Continuer vers la partie 2: Insérer des images et des liens](/demarrer-en-html-partie-2)

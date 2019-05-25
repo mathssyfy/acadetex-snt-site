@@ -27,6 +27,7 @@
         date (format: "D. MMMM YYYY")
         timeToRead
         description
+        cover (width: 860, blur: 10)
         ...on Post {
             id
             title

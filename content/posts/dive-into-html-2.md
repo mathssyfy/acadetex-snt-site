@@ -4,9 +4,10 @@ date: 2019-05-25
 tags: ['HTML', 'Tutoriel']
 canonical_url: false
 description: "Insérer des images et des liens"
+cover: ./covers/toucan.jpg
 
 ---
-> *Prérequis* : Avoir lu la partie 1
+> *Prérequis* : Avoir lu la [partie 1](/demarrer-en-html-partie-1)
 
 ## Ajouter une image
 
@@ -191,3 +192,5 @@ Nous avons utilisé:
 ```
 
 Dans `../index.html` les deux points du début signifient que l'on remonte dans l'arborescence du site.
+
+En fait nous n'avaons pas vraiment besoin de préciser `index.html`. Un simple `../` suffirait.
