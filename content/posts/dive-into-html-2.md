@@ -93,3 +93,101 @@ Il faut de plus respecter la *casse*, c'est-à-dire les majuscules et les minusc
 
 Vous pouvez mettre cette image à l'endroit que vous souhaitez. Faites plusieurs essais 😸
 
+## Ajouter des pages
+
+Un site est souvent composé de plusieurs pages. Nous allons ajouter une page "Contact".
+
+Pour ce faire, nous allons créer un sous-dossier `contact` dans lequel nous allons créer un fichier `index.html`
+
+![About Html](./images/vscode-about-html.gif)
+
+
+> Le fichier peut être appelé différemment (pas encore index.html), mais la plupart des serveurs Web serviront généralement les fichiers index.html si le navigateur visite simplement un dossier (par exemple, mon-url.com/contacts - la plupart des serveurs essaieraient de retourner un fichier index.html).
+
+Suivre cette approche n’est donc pas la pire des idées. Généralement, pour créer la structure de votre site Web, vous devez donc créer un nouveau dossier en fonction des différentes pages de votre site, comme «Contact» dans notre exemple. Chaque dossier contenant un fichier index.html n’est pas une mauvaise pratique.
+
+En copiant les premières lignes de notre fichier index.html principal jusqu’à `</ nav>` et en ajoutant les balises `</ body>` et `</ html>`, créons rapidement le contenu de cette page. Nous n’ajouterons aucune information supplémentaire à ce stade. La nouvelle page est donc créée - mission terminée.
+
+## Ajouter des liens
+
+Pour ajouter des liens nous utilisons la balise `<a></a>`, par exemple:
+
+```html
+<a href="contact/index.html">Contact</a>
+```
+
+Notre fichier principal devrait alors ressembler à:
+
+```html
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Notre première page Web</title>
+   </head>
+   <body>
+      <header>
+         <h1>Le monde de Gerflor</h1>
+      </header>
+     <nav>
+         <ul>
+            <li>Accueil</li>
+            <li><a href="contact/index.html">Contact</a></li>
+         </ul>
+     </nav>
+     <main>
+         <p>Mon voyage dans la Beauce</p>
+         <p>Le meilleur camping du Havre</p>
+         <p>Une photo d'un chat rigolo <img                                            
+                                          src="https://res.cloudinary.com/dpw19qolx/image/upload/v1549194479/samples/animals/kitten-playing.gif" 
+                                          alt="chat rigolo">
+       </p>
+         <p>La vie des cailloux en milieu aquatique</p> <img src="./img/image1.jpg" alt="Une image">
+     </main>
+     <footer>
+         <p>Image1 - Quelle belle image !</p>
+         <img src="./img/image1.jpg" alt="">
+         <p>Image2 - Bof...</p>
+      </footer>
+   </body>
+</html>
+```
+
+Dans notre page de contact, nous allons faire un lien vers la page principale:
+
+```html
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Notre page de contact</title>
+   </head>
+   <body>
+      <header>
+         <h1>Le monde de Gerflor</h1>
+      </header>
+     <nav>
+         <ul>
+            <li><a href="../index.html">Accueil</a></li>
+           <li>Contact</li>
+         </ul>
+     </nav>
+   </body>
+</html>
+```
+
+Nous pouvons de la même façon créer des liens vers un site existant, par exemple:
+
+```html
+<a href="https://acadetex-snt.netlify.com/">AcadeTex</a>
+```
+
+## Petites explications sur les chemins relatifs
+
+Nous avons utilisé:
+
+```html
+<a href="../index.html">
+```
+
+Dans `../index.html` les deux points du début signifient que l'on remonte dans l'arborescence du site.
