@@ -17,12 +17,9 @@ L'installation ne présente pas de difficulté.
 
 Les extensions VS Code nous permettent d'ajouter des langages, des débogueurs et des outils à notre installation.
 
-
 Nous pouvons parcourir et installer des extensions à partir de VS Code. Ouvrons la vue Extensions en cliquant sur l'icône Extensions dans la barre d'activité sur le côté de VS Code ou sur la commande View : Extensions (Shift + Control +X). ![VS Extension](https://scr.sad.supinfo.com/articles/resources/219251/6616/1.png)
 
-
 Quelques extensions à installer:
-
 
 + Python
 + Material Icon Theme
@@ -39,8 +36,3 @@ Lorsque vous tapez HTML, VSCode propose des suggestions via HTML IntelliSense. D
 Vous avez aussi la fermeture intelligente des balises:
 
 ![Close Tags](https://code.visualstudio.com/assets/docs/languages/html/auto-close1.gif)
-
-
-
-
-

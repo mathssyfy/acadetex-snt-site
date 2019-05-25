@@ -31,7 +31,6 @@ Deux approches sont possibles:
 1. Soit intégrer le CSS au fichier HTML.
 2. Soit mettre le CSS dans un fichier séparé.
 
-
 ### Intégrer le CSS dans le fichier HTML
 
 Cette approche très simple permet de faire quelques tests, mais n'est pas du tout utilisée en production en général. Il y a bien sûr des exceptions, mais cela sort du cadre de ce tutoriel.
@@ -63,8 +62,8 @@ Néanmoins, je vais vous montrer comment faire avec notre fichier d'exemple:
      <main>
          <p>Mon voyage dans la Beauce</p>
          <p>Le meilleur camping du Havre</p>
-         <p>Une photo d'un chat rigolo <img                                            
-                                          src="https://res.cloudinary.com/dpw19qolx/image/upload/v1549194479/samples/animals/kitten-playing.gif" 
+         <p>Une photo d'un chat rigolo <img
+                                          src="https://res.cloudinary.com/dpw19qolx/image/upload/v1549194479/samples/animals/kitten-playing.gif"
                                           alt="chat rigolo">
        </p>
          <p>La vie des cailloux en milieu aquatique</p> <img src="./img/image1.jpg" alt="Une image">

@@ -19,12 +19,11 @@ On peut chercher des images d'un peu tout et n'importe quoi sur Google.
 
 Pour l'exemple cherchons une image de chat rigolo. ![Chat rigolo](https://res.cloudinary.com/dpw19qolx/image/upload/v1549194479/samples/animals/kitten-playing.gif)
 
-> **Important:** Si c'est pour un site qui a vocation à être publié, il faut faire très très très très attention aux droits d'auteur !!! 
-
+> **Important:** Si c'est pour un site qui a vocation à être publié, il faut faire très très très très attention aux droits d'auteur !!!
 
 Quand vous trouvez une image qui vous intéresse, il vous suffit de copier l'adresse de l'image avec un clic-droit, puis:
 
-```html 
+```html
 <img src="adresse de l'image à coller ici" alt="texte à alternatif">
 ```
 

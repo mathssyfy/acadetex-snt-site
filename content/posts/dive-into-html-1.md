@@ -8,14 +8,11 @@ cover: ./covers/birds.jpg
 ---
 > *Prérequis* : [Visual Studio Code](/visual-studio-code) est installé sur votre poste
 
-
 ## Environnement de travail
 
 Dans un endroit futé, créez un dossier, par exemple `MonSuperSite`.
 
 > **Important**: Pour les noms de dossiers et de fichiers, ne pas utiliser d'espaces, de caractères spéciaux, des accents, et en HTML les noms de fichiers et de sous-dossiers sont en minuscule. Voir [Naming HTML Conventions](http://thenewcode.com/30/HTML-Naming-Conventions-and-File-Management)
-
-
 
 Dans le dossier, un clic-droit et ouvrir avec VS code.
 ![VS Code Open](./images/vscode-open.gif)
@@ -77,7 +74,6 @@ Ajoutons un élément `<meta>`:
 
 La première chose que vous remarquerez peut-être, c’est que cet élément est différent des autres éléments que nous avons créés jusqu’à présent. La balise de fermeture (par exemple </ html>) est manquante, car `<meta>` est un élément vide et ne nécessite donc pas une telle balise de fermeture. C’est juste une remarque, nous y reviendrons plus en détail tout au long de du cours. Voyons maintenant le contenu réel d’un tel élément `<meta>`.
 
-
 Un exemple général serait celui-ci, l'encodage:
 
 ```html
@@ -89,7 +85,7 @@ Un exemple général serait celui-ci, l'encodage:
 </html>
 ```
 
-Ce jeu de caractères ajoute le codage de caractères à notre code et garantit donc que le contenu, ainsi que les lettres, les chiffres et les symboles, peuvent être correctement affichés sur notre site Web. 
+Ce jeu de caractères ajoute le codage de caractères à notre code et garantit donc que le contenu, ainsi que les lettres, les chiffres et les symboles, peuvent être correctement affichés sur notre site Web.
 
 > [UTF-8](https://www.w3schools.com/charsets/ref_html_utf8.asp) est un jeu de caractères très courant, donc l'ajout à notre code n'est pas la pire des idées.
 
@@ -109,7 +105,7 @@ Il suffit d'ouvrir le fichier index.html dans le navigateur pour voir l'effet !
 
 C'était facile non? En ajoutant simplement l'élément `<title>`, nous avons ajouté ce texte sous le nom de notre onglet, ce qui est plutôt sympa. Et nous comprenons également pourquoi l'élément est ajouté dans le `<head>` et ne fait pas partie du contenu réel de la page (il ne s'agit que du nom de l'onglet, rien n'est affiché sur notre site Web jusqu'à présent).
 
-Avec cela, nous avons également ajouté des éléments centraux à notre <head>. Bien sûr, nous pourrions ajouter des éléments supplémentaires, et nous le ferons également tout au long de ce cours, mais passons maintenant au contenu réel de notre site Web.
+Avec cela, nous avons également ajouté des éléments centraux à notre `<head>`. Bien sûr, nous pourrions ajouter des éléments supplémentaires, et nous le ferons également tout au long de ce cours, mais passons maintenant au contenu réel de notre site Web.
   
 ## La balise body
   
@@ -133,13 +129,11 @@ Alors que nous ajoutons continuellement des éléments à notre code, sans vraim
 Généralement, nous pouvons distinguer les éléments **sémantiques** des éléments **non sémantiques** en HTML. Alors que les éléments sémantiques incluent des informations pour le navigateur - par exemple `<p>` indique que nous voulons ajouter un paragraphe à cette position - les éléments non sémantiques n'incluent pas ces informations supplémentaires. Par conséquent, ces derniers sont uniquement destinés à ajouter une structure supplémentaire au code au cas où les éléments sémantiques existants ne seraient pas suffisants.
   
 Quelques exemples:
+
 + *Sémantiques* : p, h1, head, body, footer, ...
 + *Non sémantiques* : div, span, ...
 
-
-
 > Assurez-vous de consulter le [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) pour en savoir plus sur les différents éléments disponibles en HTML.
-
 
 ## Créer notre premier site Web
 
@@ -163,12 +157,9 @@ Commençons par le `<header>` . Comme expliqué dans la dernière section de cet
 > **Important:**
 Bien que l'élément `<h1>` soit livré avec un style par défaut et spécial (taille de police en caractères gras et plus gros), le style de notre site Web ne doit pas être basé sur des éléments HTML. Pour ce faire, nous utiliserons CSS (Cascading Style Sheets).
 
-
-
-
 Pour nous, l'élément `<h1>` nous aide simplement à identifier rapidement le titre actuel de notre code comme `<h1>`, `<h2>`,…, `<h6>` sont généralement utilisés pour indiquer les différents [titres](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements) d'un site Web.
 
-La prochaine chose dont nous avons besoin est notre barre de navigation. En tant qu’éléments d’emballage, nous utiliserons `<nav>`, les éléments de navigation seront créés par une liste non ordonnée (`<ul>`). Une alternative serait une liste ordonnée (`<ol>`). 
+La prochaine chose dont nous avons besoin est notre barre de navigation. En tant qu’éléments d’emballage, nous utiliserons `<nav>`, les éléments de navigation seront créés par une liste non ordonnée (`<ul>`). Une alternative serait une liste ordonnée (`<ol>`).
 
 L’utilisation de `<ul>` ajoutera des puces à chaque élément, `<ol>` ordonnera les éléments de 1-x, c’est la différence principale.
   
@@ -197,9 +188,7 @@ Du point de vue du code, nous devrions être à l'état suivant maintenant:
 </html>
 ```
 
-
 Il est temps de passer à autre chose et de créer la section `<main>`. Suivant notre structure précédemment appliquée, nous utiliserons `<main>` pour indiquer la section principale de notre site Web. Pour le contenu actuel, nous utiliserons quelques paragraphes:
-  
   
 ```html
 <!DOCTYPE html>
@@ -228,7 +217,7 @@ Il est temps de passer à autre chose et de créer la section `<main>`. Suivant 
 </html>
 ```
 
-Ajouter le `<footer>` terminera le contenu réel de notre site Web. Le pied de page final contiendra à la fois des images et du texte. 
+Ajouter le `<footer>` terminera le contenu réel de notre site Web. Le pied de page final contiendra à la fois des images et du texte.
 
 ```html
 <!DOCTYPE html>
@@ -262,6 +251,5 @@ Ajouter le `<footer>` terminera le contenu réel de notre site Web. Le pied de p
 ```
 
 Avec cela, le contenu de base est terminé et, même si le site Web contient encore des espaces réservés et est loin d’être terminé, les éléments de base sont définis.
-
 
 [Continuer vers la partie 2: Insérer des images et des liens](/demarrer-en-html-partie-2)
