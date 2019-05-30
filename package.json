@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@gridsome/plugin-critical": "^0.1.2",
-    "@gridsome/remark-prismjs": "^0.0.5",
+    "@gridsome/remark-prismjs": "^0.0.6",
     "@gridsome/source-filesystem": "^0.5.0",
     "@gridsome/transformer-remark": "^0.3.2",
     "execa": "^1.0.0",
