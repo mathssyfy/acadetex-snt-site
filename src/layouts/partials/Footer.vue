@@ -4,7 +4,7 @@
     <g-link to="/contributor/davidcouronne"> @davidcouronne</g-link>
     <p class="intro__info">
           <span>Open-source MIT Licensed. </span>
-          <a href="//github.com/gridsome/gridsome" target="_blank" rel="noopener noreferrer">
+          <a href="//github.com/mathssyfy/acadetex-snt-site" target="_blank" rel="noopener noreferrer">
             <span>GitHub </span>
           </a>
         </p>

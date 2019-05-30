@@ -51,7 +51,7 @@ export default {
   },
   
   metaInfo: {
-    title: 'Modern Site Generator for Vue.js'
+    title: 'AcadeTeX SNT'
   }
 }
 </script>
