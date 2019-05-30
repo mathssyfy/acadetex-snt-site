@@ -10,7 +10,7 @@
         <Nav class="flex-fit"/>
       </LazyHydrate>
 
-      <LazyHydrate ssr-only>
+      <LazyHydrate on-idle>
         <nav class="header-actions flex">
           <ToggleTheme/>
 
