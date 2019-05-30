@@ -10,12 +10,11 @@
         <Nav class="flex-fit"/>
       </LazyHydrate>
 
-      <LazyHydrate on-idle>
+      
         <nav class="header-actions flex">
           <ToggleTheme/>
-
         </nav>
-      </LazyHydrate>
+      
     </div>
   </header>
 </template>
