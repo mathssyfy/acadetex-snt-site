@@ -1,0 +1,17 @@
+- title: Le Web
+  items:
+    - title: Comment fonctionne le Web
+      link: /docs/web
+    - title: Batir un site Web
+      link: /docs/web/dive-into-html-1
+
+- title: Internet
+  items:
+    - title: Généralités
+      link: /docs/internet
+
+- title: Ressources
+  items:
+      - title: Visual Studio
+        link: /docs/ressources/vs-code
+    

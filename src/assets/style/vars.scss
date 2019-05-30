@@ -1,0 +1,50 @@
+:root {
+  --body-color: black;
+  --primary-color: rgb(212, 165, 35);
+  --primary-color-dark: #003483;
+  --header-height: 58px;
+  --light-bg: #f7fbfb;
+  --light-bg-transparent: rgba(255,255,255,.95);
+  --primary-bg: #f7fbfb;
+  --primary-bg-transparent: rgba(247,251,251,.95);
+  --dark-bg: #0d2538;
+  --code-bg: #0b1d2b;
+  --inline-code-bg: rgba(27,31,35,.05);
+  --border-color: #e2ecec;
+  --border-color-darker: #cfe6e6;
+  --mark-color: #fff8ec;
+  --border-radius: 5px;
+  --success-bg: #5bb19640;
+  --space: 25px;
+  --space-x2: 50px;
+  --code-color: #fdf9f3;
+  --glow: 2px 2px 10px 0 var(--success-bg);
+}
+
+@media screen and (max-width: 550px) {
+  :root {
+    --space: 20px;
+    --space-x2: 20px;
+  }
+}
+
+// Override variables for Dark theme
+body[data-theme="dark"] {
+  --light-bg: #0D2538;
+  --light-bg-transparent:rgb(22, 61, 94);
+  --primary-bg: #0D2538;
+  --primary-bg-transparent:rgb(21, 60, 92);
+  --bg-content-color: #0f2d44;
+  --bg-code: rgba(0,0,0,.3);
+  --code-bg:  rgba(0,0,0,.3);
+  --border-color:  rgba(255,255,255,.1);;
+  --body-color: #ced8de;
+  --title-color: #fff;
+  --link-color: #af9cef;
+  --primary-color: rgb(255, 0, 85);
+  --primary-color-dark: rgb(212, 165, 35);
+  --inline-code-bg: rgb(212, 165, 35);
+}
+
+
+
