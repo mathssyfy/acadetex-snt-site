@@ -1,13 +1,13 @@
 <template>
-  <footer class="text-center">
+  <footer>
     An open source project by
     <g-link to="/contributor/davidcouronne"> @davidcouronne</g-link>
-    <p class="intro__info">
-          <span>Open-source MIT Licensed. </span>
+    Open-source MIT Licensed.
           <a href="//github.com/mathssyfy/acadetex-snt-site" target="_blank" rel="noopener noreferrer">
             <span>GitHub </span>
           </a>
-        </p>
+        
+      <p><g-link to="/legacy"> Mentions légales</g-link></p>
     
 
   </footer>
